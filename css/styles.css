@@ -15,7 +15,7 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   background: url("../asset/city.jpeg");
-  background-size: cover;
+  object-fit: cover;
 }
 
 .form-container {
