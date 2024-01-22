@@ -4,9 +4,41 @@
     <title>Sign up</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Signup</h1>
+    <div class="singup-container">
+      <main class="form-container">
+        <form class="singup-form form-body">
+          <div class="form-title">
+            <a href="./login.html">
+              <h2>SIGN IN</h2>
+            </a>
+            <h2 class="form-title-selected">SIGN UP</h2>
+          </div>
+          <div class="form-fields">
+            <div class="form-field">
+              <label>USERNAME</label>
+              <input type="text" name="username" value="" />
+            </div>
+            <div class="form-field">
+              <label>PASSWORD</label>
+              <input type="password" name="password" value="" />
+            </div>
+            <div class="form-field">
+              <label>REPEAT PASSWORD</label>
+              <input type="password" name="repeat-password" value="" />
+            </div>
+            <div class="form-field">
+              <label>EMAIL ADDRESS</label>
+              <input type="email" name="email" value="" />
+            </div>
+            <div class="form-button-container">
+              <button type="submit">SIGN UP</button>
+            </div>
+          </div>
+        </form>
+      </main>
+    </div>
   </body>
 </html>

@@ -4,9 +4,44 @@
     <title>Login</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Login</h1>
+    <div class="login-container">
+      <main class="form-container">
+        <form class="login-form form-body">
+          <div class="form-title">
+            <h2 class="form-title-selected">SIGN IN</h2>
+            <a href="./index.html">
+              <h2>SIGN UP</h2>
+            </a>
+          </div>
+          <div class="form-fields">
+            <div class="form-field">
+              <label>USERNAME</label>
+              <input type="text" name="username" value="" />
+            </div>
+            <div class="form-field">
+              <label>PASSWORD</label>
+              <input type="password" name="password" value="" />
+            </div>
+            <div class="timeout-option-container">
+              <input
+                type="checkbox"
+                id="timeout-option"
+                name="timeout-option"
+                value=""
+              />
+              <lable for="timeout-option">Keep me Singed in</lable>
+            </div>
+            <div class="form-button-container">
+              <button type="submit">SIGN IN</button>
+            </div>
+          </div>
+          <div class="login-form-divider"></div>
+          <a class="forgot-password-link" href="#"><p>Forgot Password?</p></a>
+        </form>
+      </main>
+    </div>
   </body>
 </html>
