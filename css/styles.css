@@ -134,7 +134,9 @@ body {
     padding: 0.9em 0.6em;
     margin: 0 auto 0.9em auto;
   }
+}
 
+@media (min-width: 690px) {
   body {
     background: rgb(0 0 0 / 15%);
   }
