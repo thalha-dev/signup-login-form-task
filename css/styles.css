@@ -121,6 +121,20 @@ body {
   padding-bottom: 1.3em;
 }
 
+.username-message,
+.password-message,
+.repeat-password-message,
+.email-message,
+.submit-message {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: red;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 0em;
+  padding-bottom: 0.9em;
+}
+
 @media (min-width: 460px) {
   .form-field label {
     font-size: 0.8rem;
